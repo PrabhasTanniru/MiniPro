@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>Download</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='/download.css') }}">
+
+    </head>
+
+    <body>
+
+        <div id="main">
+
+            <h1>Successfully Converted</h1>
+
+            <img src="static/images/audio.jpg" alt="audio"/>
+            <p>You can download your audio file by clicking the download button</p>
+            <form action="/download" method="post">
+
+                <input type="submit" value="Download" id="sb"/>
+                
+            </form> 
+            <a href="/">Home</a>
+        </div>
+
+    </body>
+
+</html>

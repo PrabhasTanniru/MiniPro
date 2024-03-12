@@ -1,0 +1,102 @@
+h1, p, input {
+    font-family: 'Lato', sans-serif;
+}
+
+#speechContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    text-align: center;
+    max-height: 350px;
+    width: 650px;
+    padding: 40px;
+    background-color: rgb(15,15,82);
+    color: white;
+    min-height: 325px;
+    height: auto;
+    overflow-y: scroll;
+}
+
+#submitButton {
+    background-color: #0191FE;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 30px;
+    margin-top: 20px;
+}
+
+#submitButton:hover {
+    cursor: pointer;
+}
+
+#speechTranscriptContainer {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#speechText {
+    font-size: 18px;
+    width: 500px;
+}
+.mainCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-color: #0191FE;
+    padding: 0;
+}
+.formCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fileInput{
+    margin-left: 85px;
+}
+
+body{
+
+    padding: 0px;
+    
+    margin: 0px;
+    
+    height: 100vh;
+    
+    background-color: #0191FE;
+    
+    display: flex;
+    
+    Justify-content: center; align-items: center;
+    }
+    
+    #main{
+    
+    width: 60%;
+    
+    background-color: rgb(15,15,82); color: white;
+    
+    text-align: center;
+    padding: 40px;
+    
+    } #main p{
+    
+    margin-top: 40px;
+    
+    font-size: 18px;
+    
+    } #box{
+    
+    height: 200px;
+    
+    width: 80%; font-size: 18px;
+    
+    }

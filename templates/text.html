@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html>
+
+<head>
+
+    <title>Text To Audio Converter</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='/text.css') }}">
+
+</head>
+
+<body>
+
+    <div id="main">
+
+        <h1>Text To Audio Converter</h1>
+
+        <p>Write input text in the below box.</p>
+
+        <form action="/convert" method="post"> 
+            <textarea id="box" name="data"></textarea>
+            <br/>
+            <input type="submit" value="Convert" id="sb"/>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>

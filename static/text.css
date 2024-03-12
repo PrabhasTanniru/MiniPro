@@ -1,0 +1,37 @@
+body{
+
+    padding: 0px;
+    
+    margin: 0px;
+    
+    height: 100vh;
+    
+    background-color: #0191FE;
+    
+    display: flex;
+    
+    Justify-content: center; align-items: center;
+    }
+    
+    #main{
+    
+    width: 60%;
+    
+    background-color: rgb(15,15,82); color: white;
+    
+    text-align: center;
+    padding: 40px;
+    
+    } #main p{
+    
+    margin-top: 40px;
+    
+    font-size: 18px;
+    
+    } #box{
+    
+    height: 200px;
+    
+    width: 80%; font-size: 18px;
+    
+    }
